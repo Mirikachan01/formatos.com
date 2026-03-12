@@ -98,13 +98,12 @@ template:`*🔥 CRUNCHYROLL*
 
 {
 name:"PARAMOUNT+",
-fields:["correo","contraseña","nombre","clave","vencimiento"],
+fields:["correo","contraseña","nombre","vencimiento"],
 template:`*🎬 PARAMOUNT+*
 
 📧 Correo: {correo}
 🔑 Contraseña: {contraseña}
 👤 Nombre: {nombre}
-🔐 Clave: {clave}
 📅 Vencimiento: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
@@ -147,79 +146,96 @@ template:`*🎬 PRIME VIDEO*
 {
 name:"IPTV SMARTERS",
 fields:["usuario","contraseña","dispositivos","vencimiento"],
-template:`IPTV SMARTERS
+template:`
 
 
+*IPTV SMARTERS PRO 🇧🇴🇨🇱🇺🇲🔓*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+👤 Nombre: Coloque cualquiera
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
+*url:* https://zona593movie.com:8443
 📺 Dispositivos: {dispositivos}
 📅 Vencimiento: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-⚠️ Ocupar en la cantidad de dispositivo indicado
-⚠️ No cambiar la contraseña
-🔊Si no cumple las reglas se le quitará el acceso a la cuenta sin derecho a reembolso`
+_⚠️ Ocupar en la cantidad de dispositivo indicado_
+_⚠️ No cambiar la contraseña_
+*🔊Si no cumple las reglas se le quitará el acceso a la cuenta sin derecho a reembolso*
+`
 },
 
 {
 name:"MASTV",
-fields:["nombre","usuario","contraseña","dispositivos","vencimiento"],
-template:`MASTV
+fields:["usuario","contraseña","dispositivos","vencimiento"],
+template:`
 
-👤 Nombre: {nombre}
+*📺✨ 𝐌𝐀𝐒𝐓𝐕 📲🔥*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
 📅 Vencimiento: {vencimiento}
-¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-❌ Prohibido cambiar la contraseña
-❌ Usar solo en la cantidad de dispositivos indicados
-⚠️ Si se detecta uso indebido se retirará el acceso`
+
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+🚨⚠️ *𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄*
+_❌🔑 Prohibido cambiar la contraseña._
+_❌📲 Usar solo en la cantidad de dispositivos indicados._
+_⚠️🚫 Si se detecta uso indebido, se retirará el acceso a la cuenta._
+`
 },
 
 {
 name:"OLEADA TV",
-fields:["nombre","usuario","contraseña","dispositivos","vencimiento"],
-template:`OLEADA TV
+fields:["usuario","contraseña","dispositivos","vencimiento"],
+template:`
 
-👤 Nombre: {nombre}
+*🌊📺 𝐎𝐋𝐄𝐀𝐃𝐀 𝐓𝐕 📲✨*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
 📅 Vencimiento: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-❌ Prohibido cambiar la contraseña
-❌ Usar solo en la cantidad de dispositivos indicados
-⚠️ Si se detecta uso indebido se retirará el acceso`
+🚨⚠️ *𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄*
+_❌🔑 Prohibido cambiar la contraseña._
+_❌📱 Usar solo en la cantidad de dispositivos indicados._ 
+_⚠️🚫 Si se detecta uso indebido, se retirará el acceso a la cuenta._
+`
 },
 
 {
 name:"MICA PLAY",
-fields:["nombre","usuario","contraseña","dispositivos","vencimiento"],
-template:`MICA PLAY
+fields:["usuario","contraseña","dispositivos","vencimiento"],
+template:`
+*🎬 𝐌𝐈𝐂𝐀𝐏𝐋𝐀𝐘 𝐓𝐕 📡*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 
-👤 Nombre: {nombre}
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
 📅 Vencimiento: {vencimiento}
-¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-❌ PROHIBIDO cambiar la contraseña
-❌ Usar solo en la cantidad indicada`
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬  
+🚨⚠️ *¡IMPORTANTE!*  
+_❌🔑 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚._
+_❌📱 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝐥𝐚 𝐜𝐚𝐧𝐭𝐢𝐝𝐚𝐝 𝐝𝐞 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨𝐬 𝐢𝐧𝐝𝐢𝐜𝐚𝐝𝐨𝐬, 𝐜𝐚𝐬𝐨 𝐜𝐨𝐧𝐭𝐫𝐚𝐫𝐢𝐨 𝐬𝐞 𝐥𝐞 𝐪𝐮𝐢𝐭𝐚𝐫á 𝐞𝐥 𝐚𝐜𝐜𝐞𝐬𝐨 𝐚 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚._`
 },
 
 {
 name:"FLUJO TV",
 fields:["usuario","contraseña","dispositivos","vencimiento"],
-template:`FLUJO TV
+template:`
 
-
+*📡 𝐅𝐋𝐔𝐉𝐎 𝐓𝐕 🖥️*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
 📅 Vencimiento: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-🚫 PROHIBIDO cambiar la contraseña
-🚫 Usar solo en la cantidad indicada`
+⚠️ *¡IMPORTANTE!*  
+_🚫🗝️ 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚._ 
+_🚫📺 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝐥𝐚 𝐜𝐚𝐧𝐭𝐢𝐝𝐚𝐝 𝐝𝐞 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨𝐬 𝐢𝐧𝐝𝐢𝐜𝐚𝐝𝐨𝐬, 𝐜𝐚𝐬𝐨 𝐜𝐨𝐧𝐭𝐫𝐚𝐫𝐢𝐨 𝐬𝐞 𝐥𝐞 𝐪𝐮𝐢𝐭𝐚𝐫á 𝐞𝐥 𝐚𝐜𝐜𝐞𝐬𝐨 𝐚 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚._
+`
 },
 
 // APPS
@@ -236,33 +252,54 @@ pc:`*📲💻CHAT GPT PLUS🤖*
 🔌 Dispositivo: PC
 ⏰ Vence: {vencimiento}
 
-💻 Iniciar sesión en PC
-1️⃣ https://chat.openai.com
-2️⃣ Inicia sesión
-3️⃣ Ingresa el correo y contraseña
-
-⚠️ Reglas
-• Solo 1 dispositivo
-• No cerrar sesión
-• No modificar datos
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+👨‍💻 𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐚𝐯í𝐬𝐚𝐧𝐨𝐬 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐦𝐨𝐧𝐢𝐭𝐨𝐫𝐞𝐚𝐫 𝐭𝐮 𝐢𝐧𝐠𝐫𝐞𝐬𝐨.
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+💻𝐈𝐧𝐢𝐜𝐢𝐚𝐫 𝐜𝐞𝐬𝐢ó𝐧 𝐞𝐧 𝐏𝐂
+1️⃣ https://chat.openai.com   
+2️⃣ ᴅᴇʟᴇ ᴇɴ ɪɴɪᴄɪᴀʀ ᴄᴇꜱɪóɴ. 
+3️⃣ ɪɴɢʀᴇꜱᴇ ʟᴏꜱ ᴅᴀᴛᴏꜱ ᴅᴏɴᴅᴇ ᴅɪᴄᴇ " ᴄᴏʀʀᴇᴏ ᴇʟᴇᴄᴛʀóɴɪᴄᴏ "
+4️⃣ ꜱɪ ᴘɪᴅᴇ ᴄóᴅɪɢᴏ ᴍᴇ ᴍᴀɴᴅᴀ ᴄᴀᴘᴛᴜʀᴀ ᴅᴇ ᴘᴀɴᴛᴀʟʟᴀ ᴄᴏᴍᴘʟᴇᴛᴀ. 
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+🔒𝐑𝐄𝐆𝐋𝐀𝐒 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄𝐒 ⚠️ 
+💻 ꜱᴏʟᴏ ꜱᴇ ᴘᴇʀᴍɪᴛᴇ 1 ᴅɪꜱᴘᴏꜱɪᴛɪᴠᴏ ᴘᴏʀ ᴜꜱᴜᴀʀɪᴏ ᴏ ᴄᴏᴍᴘʀᴀ.
+🔒 ɴᴏ ᴄɪᴇʀʀᴇꜱ ꜱᴇꜱɪóɴ ᴜɴᴀ ᴠᴇᴢ ɪɴɪᴄɪᴀᴅᴀ.
+🧾 ɴᴏ ᴍᴏᴅɪꜰɪQᴜᴇꜱ ʟᴏꜱ ᴅᴀᴛᴏꜱ ᴅᴇ ꜰᴀᴄᴛᴜʀᴀᴄɪóɴ.
+🚫 ᴘʀᴏʜɪʙɪᴅᴏ ᴇʟɪᴍɪɴᴀʀ ᴘʀᴏʏᴇᴄᴛᴏꜱ ᴅᴇ ᴏᴛʀᴏꜱ ᴜꜱᴜᴀʀɪᴏꜱ.
+❌ ꜱɪ ᴇʟɪᴍɪɴáꜱ ʟᴀ ᴄᴜᴇɴᴛᴀ, ᴘᴇʀᴅéꜱ ʟᴀ ɢᴀʀᴀɴᴛíᴀ ʏ ɴᴏ ʜᴀʏ ᴅᴇʀᴇᴄʜᴏ ᴀ ʀᴇᴇᴍʙᴏʟꜱᴏ.
+💸 ᴜɴᴀ ᴠᴇᴢ ᴇɴᴛʀᴇɢᴀᴅᴀ ʟᴀ ᴄᴜᴇɴᴛᴀ, ɴᴏ ꜱᴇ ʀᴇᴀʟɪᴢᴀɴ ʀᴇᴇᴍʙᴏʟꜱᴏꜱ.
+✅𝐑𝐞𝐬𝐩𝐞𝐭𝐚 𝐥𝐚𝐬 𝐫𝐞𝐠𝐥𝐚𝐬 𝐲 𝐝𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐝𝐞 𝐂𝐡𝐚𝐭𝐆𝐏𝐓
 `,
 
-movil:`*📲💻CHAT GPT PLUS🤖*
+movil:`
+*📲💻CHAT GPT PLUS🤖*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 
 📧: {correo}
 🔑: {contraseña}
 🔌 Dispositivo: Móvil
 ⏰ Vence: {vencimiento}
 
-📲 Iniciar sesión en Móvil
-1️⃣ Instalar app oficial
-2️⃣ Iniciar sesión
-3️⃣ Ingresar correo y contraseña
-
-⚠️ Reglas
-• Solo 1 dispositivo
-• No cerrar sesión
-• No modificar datos
+ 
+🔌 𝐃𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨: Móvil
+⏰ 𝐕𝐞𝐧𝐜𝐞: 09/04/2026
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+👨‍💻 𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐚𝐯í𝐬𝐚𝐧𝐨𝐬 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐦𝐨𝐧𝐢𝐭𝐨𝐫𝐞𝐚𝐫 𝐭𝐮 𝐢𝐧𝐠𝐫𝐞𝐬𝐨.
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+*📲𝐈𝐧𝐢𝐜𝐢𝐚𝐫 𝐜𝐞𝐬𝐢ó𝐧 𝐞𝐧 𝐌𝐎𝐕𝐈𝐋*
+1️⃣ ɪɴꜱᴛᴀʟᴇ ʟᴀ ᴀᴘʟɪᴄᴀᴄɪóɴ ᴏꜰɪᴄɪᴀʟ ᴅᴇ ꜱᴜ ᴛɪᴇɴᴅᴀ ᴅᴇ ᴀᴘʟɪᴄᴀᴄɪᴏɴᴇꜱ.
+2️⃣ ᴅᴇʟᴇ ᴇɴ ɪɴɪᴄɪᴀʀ ᴄᴇꜱɪóɴ. 
+3️⃣ ɪɴɢʀᴇꜱᴇ ʟᴏꜱ ᴅᴀᴛᴏꜱ ᴅᴏɴᴅᴇ ᴅɪᴄᴇ " ᴄᴏʀʀᴇᴏ ᴇʟᴇᴄᴛʀóɴɪᴄᴏ "
+4️⃣ ꜱɪ ᴘɪᴅᴇ ᴄóᴅɪɢᴏ ᴍᴇ ᴍᴀɴᴅᴀ ᴄᴀᴘᴛᴜʀᴀ ᴅᴇ ᴘᴀɴᴛᴀʟʟᴀ ᴄᴏᴍᴘʟᴇᴛᴀ.
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+🔒𝐑𝐄𝐆𝐋𝐀𝐒 𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄𝐒 ⚠️ 
+💻 ꜱᴏʟᴏ ꜱᴇ ᴘᴇʀᴍɪᴛᴇ 1 ᴅɪꜱᴘᴏꜱɪᴛɪᴠᴏ ᴘᴏʀ ᴜꜱᴜᴀʀɪᴏ ᴏ ᴄᴏᴍᴘʀᴀ.
+🔒 ɴᴏ ᴄɪᴇʀʀᴇꜱ ꜱᴇꜱɪóɴ ᴜɴᴀ ᴠᴇᴢ ɪɴɪᴄɪᴀᴅᴀ.
+🧾 ɴᴏ ᴍᴏᴅɪꜰɪQᴜᴇꜱ ʟᴏꜱ ᴅᴀᴛᴏꜱ ᴅᴇ ꜰᴀᴄᴛᴜʀᴀᴄɪóɴ.
+🚫 ᴘʀᴏʜɪʙɪᴅᴏ ᴇʟɪᴍɪɴᴀʀ ᴘʀᴏʏᴇᴄᴛᴏꜱ ᴅᴇ ᴏᴛʀᴏꜱ ᴜꜱᴜᴀʀɪᴏꜱ.
+❌ ꜱɪ ᴇʟɪᴍɪɴáꜱ ʟᴀ ᴄᴜᴇɴᴛᴀ, ᴘᴇʀᴅéꜱ ʟᴀ ɢᴀʀᴀɴᴛíᴀ ʏ ɴᴏ ʜᴀʏ ᴅᴇʀᴇᴄʜᴏ ᴀ ʀᴇᴇᴍʙᴏʟꜱᴏ.
+💸 ᴜɴᴀ ᴠᴇᴢ ᴇɴᴛʀᴇɢᴀᴅᴀ ʟᴀ ᴄᴜᴇɴᴛᴀ, ɴᴏ ꜱᴇ ʀᴇᴀʟɪᴢᴀɴ ʀᴇᴇᴍʙᴏʟꜱᴏꜱ.
+*✅𝐑𝐞𝐬𝐩𝐞𝐭𝐚 𝐥𝐚𝐬 𝐫𝐞𝐠𝐥𝐚𝐬 𝐲 𝐝𝐢𝐬𝐟𝐫𝐮𝐭𝐚 𝐝𝐞 𝐂𝐡𝐚𝐭𝐆𝐏𝐓*
 `
 }
 
@@ -278,34 +315,51 @@ fields:["correo","contraseña","dispositivo","vencimiento"],
 
 templates:{
 
-movil:`*📽️ CAPCUT PRO 📸*
+movil:`
+*📽️ 𝘾𝘼𝙋𝘾𝙐𝙏 𝙋𝙍𝙊 📸*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 
 📧: {correo}
 🔑: {contraseña}
 📅 Vence: {vencimiento}
 📱 Dispositivo: Móvil
 
-🔓 Cómo iniciar sesión
-1. Abrir CapCut
-2. Elegir correo electrónico
-3. Ingresar datos
-
-⚠️ No vincular con TikTok
+*📅 Vence:* 24/07/2026
+*📱Dispositivo:* Movil
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+🔓 *¿Cómo iniciar cesion?*
+1. Abre la app de CapCut.
+2. Elige *"Correo Electrónico"* como método de inicio de sesión.
+3. Ingresa los datos proporcionados.
+4. Verifica que anotaste bien los datos.
+*🚨IMPORTANTE🚨*
+* 𝐍𝐨 𝐯𝐢𝐧𝐜𝐮𝐥𝐚𝐫 𝐜𝐨𝐧 𝐓𝐢𝐤𝐓𝐨𝐤. 
+* 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨.
+* 𝐍𝐨 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐚𝐬 𝐜𝐨𝐧 𝐧𝐚𝐝𝐢𝐞 𝐬𝐮 𝐜𝐮𝐞𝐧𝐭𝐚. 𝐒𝐢 𝐬𝐞 𝐝𝐞𝐭𝐞𝐜𝐭𝐚 𝐦𝐚𝐥 𝐮𝐬𝐨, 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚 𝐬𝐞 𝐛𝐥𝐨𝐪𝐮𝐞𝐚 𝐬𝐢𝐧 𝐠𝐚𝐫𝐚𝐧𝐭í𝐚 𝐧𝐢 𝐫𝐞𝐞𝐦𝐛𝐨𝐥𝐬𝐨.
+*🚫 El incumplimiento de estas reglas puede causar la pérdida del acceso sin derecho a reembolso.*
 `,
 
-pc:`*📽️ CAPCUT PRO 📸*
+pc:`
 
+*📽️ 𝘾𝘼𝙋𝘾𝙐𝙏 𝙋𝙍𝙊 📸*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧: {correo}
 🔑: {contraseña}
 📅 Vence: {vencimiento}
 💻 Dispositivo: PC
-
-💻 Uso en PC
-1. Inicia sesión en celular
-2. Abre CapCut en PC
-3. Escanea QR
-
-⚠️ No vincular con TikTok
+*📅 Vence:* 24/07/2026
+*📱Dispositivo:* pc
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+*💻 ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐮𝐬𝐚𝐫 𝐞𝐧 𝐏𝐂?*
+1. 𝐏𝐫𝐢𝐦𝐞𝐫𝐨 𝐢𝐧𝐢𝐜𝐢𝐚 𝐬𝐞𝐬𝐢ó𝐧 𝐞𝐧 𝐥𝐚 𝐚𝐩𝐩 𝐝𝐞𝐥 *𝐜𝐞𝐥𝐮𝐥𝐚𝐫*
+2. 𝐋𝐮𝐞𝐠𝐨 𝐚𝐛𝐫𝐞 𝐂𝐚𝐩𝐂𝐮𝐭 𝐞𝐧 𝐭𝐮 𝐏𝐂.
+3. 𝐄𝐬𝐜𝐚𝐧𝐞𝐚 𝐞𝐥 *𝐜ó𝐝𝐢𝐠𝐨 𝐐𝐑* 𝐜𝐨𝐧 𝐭𝐮 𝐜𝐞𝐥𝐮𝐥𝐚𝐫 𝐩𝐚𝐫𝐚 𝐢𝐧𝐠𝐫𝐞𝐬𝐚𝐫.
+4. 𝐃𝐞𝐬𝐩𝐮é𝐬 𝐝𝐞 𝐢𝐧𝐠𝐫𝐞𝐬𝐚𝐫 𝐞𝐧 𝐥𝐚 𝐏𝐂, *𝐂𝐢𝐞𝐫𝐫𝐞 𝐜𝐞𝐬𝐢𝐨𝐧 𝐞𝐧 𝐥𝐚 𝐚𝐩𝐩 𝐝𝐞𝐥 𝐜𝐞𝐥𝐮𝐥𝐚𝐫,𝐧𝐨 𝐝𝐞𝐬𝐢𝐬𝐭𝐚𝐥𝐞 𝐥𝐚 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢𝐨𝐧* 𝐩𝐚𝐫𝐚 𝐞𝐯𝐢𝐭𝐚𝐫 𝐜𝐨𝐧𝐟𝐥𝐢𝐜𝐭𝐨𝐬 𝐝𝐞 𝐬𝐞𝐬𝐢ó𝐧.
+*🚨IMPORTANTE🚨*
+* 𝐍𝐨 𝐯𝐢𝐧𝐜𝐮𝐥𝐚𝐫 𝐜𝐨𝐧 𝐓𝐢𝐤𝐓𝐨𝐤. 
+* 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨.
+* 𝐍𝐨 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐚𝐬 𝐜𝐨𝐧 𝐧𝐚𝐝𝐢𝐞 𝐬𝐮 𝐜𝐮𝐞𝐧𝐭𝐚. 𝐒𝐢 𝐬𝐞 𝐝𝐞𝐭𝐞𝐜𝐭𝐚 𝐦𝐚𝐥 𝐮𝐬𝐨, 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚 𝐬𝐞 𝐛𝐥𝐨𝐪𝐮𝐞𝐚 𝐬𝐢𝐧 𝐠𝐚𝐫𝐚𝐧𝐭í𝐚 𝐧𝐢 𝐫𝐞𝐞𝐦𝐛𝐨𝐥𝐬𝐨.
+*🚫 El incumplimiento de estas reglas puede causar la pérdida del acceso sin derecho a reembolso.*
 `
 }
 
@@ -316,10 +370,14 @@ pc:`*📽️ CAPCUT PRO 📸*
 {
 name:"RAKUTEN PLUS",
 fields:["correo","contraseña"],
-template:`RAKUTEN PLUS
+template:`
 
+*🌟𝐕𝐈𝐊𝐘 𝐑𝐀𝐊𝐔𝐓𝐄𝐍 𝐏𝐥𝐮𝐬🌟*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 Correo: {correo}
 🔑 Contraseña: {contraseña}
+*📅Vence:* 30 días
+*📱Dispositivo:* 1 
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐝𝐚𝐭𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚.
 🚫 𝐄𝐯𝐢𝐭𝐚𝐫 𝐨𝐜𝐮𝐩𝐚𝐫 𝐦𝐚𝐬 𝐝𝐞 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨.
@@ -329,10 +387,14 @@ template:`RAKUTEN PLUS
 {
 name:"APPLE TV+",
 fields:["correo","contraseña"],
-template:`APPLE TV+
+template:`
 
+*🍎📺 APPLE TV+ 📺🍏*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 Correo: {correo}
 🔑 Contraseña: {contraseña}
+*📱Dispositivo:* 1
+*📆 Vence:* 12/08/2025
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📵 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐝𝐚𝐭𝐨𝐬 𝐧𝐢 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚. 
 🚫 𝐎𝐜𝐮𝐩𝐚𝐫 𝐞𝐧 𝐮𝐧 𝐬𝐨𝐥𝐨 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨 𝐩𝐚𝐫𝐚 𝐞𝐯𝐢𝐭𝐚𝐫 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚𝐬.`
@@ -343,8 +405,10 @@ template:`APPLE TV+
 {
 name:"YOUTUBE PREMIUM",
 fields:["correo"],
-template:`Invitación enviada a:
+template:`
 
+*💌 Te envié la invitación a tu correo.*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 {correo}
 1️⃣ Haz clic en *"Aceptar"*.
 2️⃣ Luego, selecciona *"Unirse"*.
@@ -352,14 +416,17 @@ _🎉 ¡Listo! *YouTube Premium* debería activarse de inmediato._
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📸 *Si después de unirte no ves YouTube Premium activo, envíame una captura de pantalla y con gusto te ayudaré.*
 
-⚠️ *La invitación expira en 24 horas,* así que acéptala cuanto antes.`
+⚠️ *La invitación expira en 24 horas,* así que acéptala cuanto antes.
+`
 },
 
 {
 name:"CANVA PRO",
 fields:["correo"],
-template:`Invitación Canva enviada a:
+template:`
 
+*💌 𝐋𝐚 𝐢𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐟𝐮𝐞 𝐞𝐧𝐯𝐢𝐚𝐝𝐚 𝐚𝐥 𝐜𝐨𝐫𝐫𝐞𝐨 𝐪𝐮𝐞 𝐦𝐞 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐬𝐭𝐞.*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 {correo}
 𝟏️⃣ 𝐇𝐚𝐳 𝐜𝐥𝐢𝐜 𝐞𝐧 𝐞𝐥 𝐛𝐨𝐭ó𝐧 *"𝐀𝐜𝐞𝐩𝐭𝐚𝐫 𝐢𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧"* 𝐝𝐞𝐬𝐝𝐞 𝐞𝐥 𝐜𝐨𝐫𝐫𝐞𝐨.
 𝟐️⃣ 𝐋𝐮𝐞𝐠𝐨 𝐬𝐞𝐥𝐞𝐜𝐜𝐢𝐨𝐧𝐚 *"𝐔𝐧𝐢𝐫𝐬𝐞 𝐚𝐥 𝐞𝐪𝐮𝐢𝐩𝐨"* 𝐩𝐚𝐫𝐚 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐚𝐫.
@@ -372,22 +439,25 @@ template:`Invitación Canva enviada a:
 {
 name:"PORNHUB PREMIUM",
 fields:["usuario","contraseña"],
-template:`Pornhub Premium
+template:`
 
+*🔥𝐏𝐎𝐑𝐍𝐇𝐔𝐁 𝐏𝐑𝐄𝐌𝐈𝐔𝐌🔥*
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 *📅 Vence:* 30 días
 *📲 Uso:* 1 dispositivo
 🔗 𝐋𝐨𝐠𝐢𝐧: pornhub.com
 
-✅ *Recomendación:* No compartas el acceso para evitar bloqueos.`
+✅ *Recomendación:* No compartas el acceso para evitar bloqueos.
+`
 },
 
 {
 name:"BRAZZERS PREMIUM",
 fields:["usuario","contraseña"],
-template:`Brazzers Premium
+template:`
 
+*🔞𝐁𝐑𝐀𝐙𝐙𝐄𝐑𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌🔥*
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 *📅 Vence:* 30 días
