@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>LEGION STORE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="calc-btn" onclick="openCalculator()">🧮 Calculadora</button>
+<header>
+<h1>LEGIÓN STORE</h1>
+</header>
+
+<div class="search-box">
+<input type="text" id="search" placeholder="Buscar servicio...">
+</div>
+
+<div id="services" class="services"></div>
+
+<div id="formSection" class="form-section hidden">
+
+<h2 id="serviceTitle"></h2>
+
+<div id="dynamicForm"></div>
+
+<button class="generate" onclick="generateText()">Generar mensaje</button>
+
+<textarea id="result"></textarea>
+
+<button class="copy" onclick="copyText()">Copiar</button>
+
+<button class="back" onclick="goBack()">Volver</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
