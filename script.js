@@ -146,10 +146,10 @@ template:`*🎬 PRIME VIDEO*
 
 {
 name:"IPTV SMARTERS",
-fields:["nombre","usuario","contraseña","dispositivos","vencimiento"],
+fields:["usuario","contraseña","dispositivos","vencimiento"],
 template:`IPTV SMARTERS
 
-👤 Nombre: {nombre}
+
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
@@ -209,10 +209,10 @@ template:`MICA PLAY
 
 {
 name:"FLUJO TV",
-fields:["nombre","usuario","contraseña","dispositivos","vencimiento"],
+fields:["usuario","contraseña","dispositivos","vencimiento"],
 template:`FLUJO TV
 
-👤 Nombre: {nombre}
+
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
