@@ -9,9 +9,9 @@ template:`*🎬 HBO MAX 🎥*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-👤 Nombre: {nombre}
-🔐 Clave: {clave}
-📅 Vencimiento: {vencimiento}
+👤 : {nombre}
+🔐 : {clave}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐧𝐨𝐦𝐛𝐞 𝐧𝐢 𝐏𝐢𝐧 𝐝𝐞𝐥 𝐩𝐞𝐫𝐟𝐢𝐥. 
@@ -32,9 +32,9 @@ template:`*📺 NETFLIX PREMIUM*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-👤 Nombre: {nombre}
-🔐 Clave: {clave}
-📅 Vencimiento: {vencimiento}
+👤 : {nombre}
+🔐 : {clave}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐍𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐫 𝐥𝐨𝐬 𝐩𝐞𝐫𝐟𝐢𝐥𝐞𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚.
@@ -52,9 +52,9 @@ template:`*🎬 DISNEY+*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-👤 Nombre: {nombre}
-🔐 Clave: {clave}
-📅 Vencimiento: {vencimiento}
+👤 : {nombre}
+🔐 : {clave}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 ▫️ 𝐁𝐨𝐫𝐫𝐚 𝐜𝐚𝐜𝐡é 𝐝𝐞 𝐥𝐚 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢ó𝐧 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧.
@@ -74,9 +74,9 @@ template:`*🔥 CRUNCHYROLL*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-👤 Nombre: {nombre}
-🔐 Clave: {clave}
-📅 Vencimiento: {vencimiento}
+👤 : {nombre}
+🔐 : {clave}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨.
@@ -95,8 +95,8 @@ template:`*🎬 PARAMOUNT+*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-👤 Nombre: {nombre}
-📅 Vencimiento: {vencimiento}
+👤 : {nombre}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨 𝐟𝐢𝐣𝐨.
@@ -114,9 +114,9 @@ template:`*🎬 PRIME VIDEO*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-👤 Nombre: {nombre}
-🔐 Clave: {clave}
-📅 Vencimiento: {vencimiento}
+👤 : {nombre}
+🔐 : {clave}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐍𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚𝐫 𝐚 𝐚𝐦𝐚𝐳𝐨𝐧.𝐜𝐨𝐦
@@ -144,7 +144,7 @@ template:`
 🔑 Contraseña: {contraseña}
 *url:* https://zona593movie.com:8443
 📺 Dispositivos: {dispositivos}
-📅 Vencimiento: {vencimiento}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 _⚠️ Ocupar en la cantidad de dispositivo indicado_
 _⚠️ No cambiar la contraseña_
@@ -162,7 +162,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vencimiento: {vencimiento}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🚨⚠️ *𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄*
 _❌🔑 Prohibido cambiar la contraseña._
@@ -181,7 +181,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vencimiento: {vencimiento}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🚨⚠️ *𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄*
 _❌🔑 Prohibido cambiar la contraseña._
@@ -199,7 +199,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vencimiento: {vencimiento}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬  
 🚨⚠️ *¡IMPORTANTE!*  
 _❌🔑 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚._
@@ -216,7 +216,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vencimiento: {vencimiento}
+📅 Vence: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 ⚠️ *¡IMPORTANTE!*  
 _🚫🗝️ 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚._ 
@@ -232,12 +232,11 @@ fields:["correo","contraseña","dispositivo","vencimiento"],
 
 templates:{
 pc:`*📲💻CHAT GPT PLUS🤖*
-
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧: {correo}
 🔑: {contraseña}
 🔌 Dispositivo: PC
 ⏰ Vence: {vencimiento}
-
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 👨‍💻 𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐚𝐯í𝐬𝐚𝐧𝐨𝐬 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐦𝐨𝐧𝐢𝐭𝐨𝐫𝐞𝐚𝐫 𝐭𝐮 𝐢𝐧𝐠𝐫𝐞𝐬𝐨.
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
@@ -260,7 +259,6 @@ pc:`*📲💻CHAT GPT PLUS🤖*
 movil:`
 *📲💻CHAT GPT PLUS🤖*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-
 📧: {correo}
 🔑: {contraseña}
 🔌 Dispositivo: Móvil
@@ -352,8 +350,8 @@ template:`
 
 *🌟𝐕𝐈𝐊𝐘 𝐑𝐀𝐊𝐔𝐓𝐄𝐍 𝐏𝐥𝐮𝐬🌟*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+📧 : {correo}
+🔑 : {contraseña}
 *📅Vence:* 30 días
 *📱Dispositivo:* 1 
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
@@ -369,8 +367,8 @@ template:`
 
 *🍎📺 APPLE TV+ 📺🍏*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+📧 : {correo}
+🔑 : {contraseña}
 *📱Dispositivo:* 1
 *📆 Vence:* 30 dias
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
@@ -419,8 +417,8 @@ fields:["usuario","contraseña"],
 template:`
 
 *🔥𝐏𝐎𝐑𝐍𝐇𝐔𝐁 𝐏𝐑𝐄𝐌𝐈𝐔𝐌🔥*
-👤 Usuario: {usuario}
-🔑 Contraseña: {contraseña}
+👤 : {usuario}
+🔑 : {contraseña}
 *📅 Vence:* 30 días
 *📲 Uso:* 1 dispositivo
 🔗 𝐋𝐨𝐠𝐢𝐧: pornhub.com
@@ -434,8 +432,8 @@ fields:["usuario","contraseña"],
 template:`
 
 *🔞𝐁𝐑𝐀𝐙𝐙𝐄𝐑𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌🔥*
-👤 Usuario: {usuario}
-🔑 Contraseña: {contraseña}
+👤 : {usuario}
+🔑 : {contraseña}
 *📅 Vence:* 30 días
 *📲 Uso:* 1 dispositivo
 🔗 𝐋𝐨𝐠𝐢𝐧: brazzers.com
