@@ -515,8 +515,11 @@ const container=document.getElementById("services")
 
 services.forEach((s,i)=>{
 
+
+    
 let card=document.createElement("div")
-card.className="card"
+card.className="card "+s.name.replace(/\s|\+/g,"")
+
 card.innerHTML=`<h3>${s.name}</h3>`
 card.onclick=()=>openService(i)
 
@@ -642,5 +645,20 @@ card.style.display=card.innerText.toLowerCase().includes(term)?"block":"none"
 function openCalculator(){
 window.location.href="conversor_bs_usd.html"
 }
+
+
+
+window.addEventListener("load",function(){
+
+setTimeout(()=>{
+
+document.getElementById("loadingScreen").style.display="none"
+
+},1500)
+
+})
+
+
+
 
 

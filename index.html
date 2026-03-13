@@ -4,10 +4,31 @@
 <meta charset="UTF-8">
 <title>LEGION STORE</title>
 <link rel="stylesheet" href="style.css">
+
+<link rel="icon" type="image/png" href="logo.png">
 </head>
 
+<div id="loadingScreen">
+
+<img src="logo.png" class="loading-logo">
+
+<h2>Cargando formatos...</h2>
+
+<div class="loader"></div>
+
+</div>
+
 <body>
-    <button class="calc-btn" onclick="openCalculator()">🧮 Calculadora</button>
+   <!-- Video de fondo -->
+  <video autoplay muted loop id="bg-video">
+    <source src="video.mp4" type="video/mp4">
+    Tu navegador no soporta videos de fondo.
+  </video>
+
+  <!-- Capa de overlay para oscurecer -->
+  <div class="overlay"></div>
+
+
 <header>
 <h1>LEGIÓN STORE</h1>
 </header>
@@ -15,7 +36,7 @@
 <div class="search-box">
 <input type="text" id="search" placeholder="Buscar servicio...">
 </div>
-
+<button class="calc-btn" onclick="openCalculator()">🧮 Calculadora</button>
 <div id="services" class="services"></div>
 
 <div id="formSection" class="form-section hidden">
