@@ -1,11 +1,19 @@
 const services=[
 
+
+
+
+
+
+
+
+
 // STREAMING CLASICOS
 
 {
-name:"HBO MAX",
+name:"*HBO MAX*",
 fields:["correo","contraseña","nombre","clave"],
-template:`*🎬 HBO MAX 🎥*
+template:`*🎬 𝐇𝐁𝐎 𝐌𝐀𝐗 🎥*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
@@ -28,7 +36,7 @@ template:`*🎬 HBO MAX 🎥*
 {
 name:"NETFLIX",
 fields:["correo","contraseña","nombre","clave"],
-template:`*📺 NETFLIX PREMIUM*
+template:`*📺 𝐍𝐄𝐓𝐅𝐋𝐈𝐗 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 📱*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
@@ -48,7 +56,7 @@ template:`*📺 NETFLIX PREMIUM*
 {
 name:"DISNEY+",
 fields:["correo","contraseña","nombre","clave"],
-template:`*🎬 DISNEY+*
+template:`*🎬 𝐃𝐈𝐒𝐍𝐄𝐘+ 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ✨*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
@@ -70,7 +78,7 @@ template:`*🎬 DISNEY+*
 {
 name:"CRUNCHYROLL",
 fields:["correo","contraseña","nombre","clave"],
-template:`*🔥 CRUNCHYROLL*
+template:`*🔥 𝐂𝐑𝐔𝐍𝐂𝐇𝐘𝐑𝐎𝐋𝐋 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 🍥*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
@@ -91,7 +99,7 @@ template:`*🔥 CRUNCHYROLL*
 {
 name:"PARAMOUNT+",
 fields:["correo","contraseña","nombre"],
-template:`*🎬 PARAMOUNT+*
+template:`*🎬 𝐏𝐀𝐑𝐀𝐌𝐎𝐔𝐍𝐓+ 𝐏𝐋𝐔𝐒 ⛰️*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
@@ -110,7 +118,7 @@ template:`*🎬 PARAMOUNT+*
 {
 name:"PRIME VIDEO",
 fields:["correo","contraseña","nombre","clave"],
-template:`*🎬 PRIME VIDEO*
+template:`*🎬 𝐏𝐑𝐈𝐌𝐄 𝐕𝐈𝐃𝐄𝐎 🍿*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
