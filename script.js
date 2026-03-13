@@ -11,7 +11,7 @@ const services=[
 // STREAMING CLASICOS
 
 {
-name:"*HBO MAX*",
+name:"HBO MAX",
 fields:["correo","contraseña","nombre","clave"],
 template:`*🎬 𝐇𝐁𝐎 𝐌𝐀𝐗 🎥*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
