@@ -6,9 +6,9 @@ const services=[
 name:"HBO MAX",
 fields:["correo","contraseña","nombre","clave","vencimiento"],
 template:`*🎬 HBO MAX 🎥*
-
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧 : {correo}
+🔑 : {contraseña}
 👤 Nombre: {nombre}
 🔐 Clave: {clave}
 📅 Vencimiento: {vencimiento}
@@ -29,9 +29,9 @@ template:`*🎬 HBO MAX 🎥*
 name:"NETFLIX",
 fields:["correo","contraseña","nombre","clave","vencimiento"],
 template:`*📺 NETFLIX PREMIUM*
-
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧 : {correo}
+🔑 : {contraseña}
 👤 Nombre: {nombre}
 🔐 Clave: {clave}
 📅 Vencimiento: {vencimiento}
@@ -49,9 +49,9 @@ template:`*📺 NETFLIX PREMIUM*
 name:"DISNEY+",
 fields:["correo","contraseña","nombre","clave","vencimiento"],
 template:`*🎬 DISNEY+*
-
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧 : {correo}
+🔑 : {contraseña}
 👤 Nombre: {nombre}
 🔐 Clave: {clave}
 📅 Vencimiento: {vencimiento}
@@ -71,9 +71,9 @@ template:`*🎬 DISNEY+*
 name:"CRUNCHYROLL",
 fields:["correo","contraseña","nombre","clave","vencimiento"],
 template:`*🔥 CRUNCHYROLL*
-
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧 : {correo}
+🔑 : {contraseña}
 👤 Nombre: {nombre}
 🔐 Clave: {clave}
 📅 Vencimiento: {vencimiento}
@@ -92,9 +92,9 @@ template:`*🔥 CRUNCHYROLL*
 name:"PARAMOUNT+",
 fields:["correo","contraseña","nombre","vencimiento"],
 template:`*🎬 PARAMOUNT+*
-
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧 : {correo}
+🔑 : {contraseña}
 👤 Nombre: {nombre}
 📅 Vencimiento: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
@@ -111,9 +111,9 @@ template:`*🎬 PARAMOUNT+*
 name:"PRIME VIDEO",
 fields:["correo","contraseña","nombre","clave","vencimiento"],
 template:`*🎬 PRIME VIDEO*
-
-📧 Correo: {correo}
-🔑 Contraseña: {contraseña}
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧 : {correo}
+🔑 : {contraseña}
 👤 Nombre: {nombre}
 🔐 Clave: {clave}
 📅 Vencimiento: {vencimiento}
@@ -440,7 +440,76 @@ template:`
 *📲 Uso:* 1 dispositivo
 🔗 𝐋𝐨𝐠𝐢𝐧: brazzers.com
 ✅ *Recomendación:* No compartas el acceso para evitar bloqueos.`
-}
+},
+
+
+{
+name:"SPOTIFY PREMIUM",
+fields:["correo","contraseña"],
+template:`*🎵 𝐒𝐏𝐎𝐓𝐈𝐅𝐘 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 🎧*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧: {correo}
+🔑: {contraseña}
+📅: 30 días
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐞𝐥 𝐜𝐨𝐫𝐫𝐞𝐨 𝐧𝐢 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚.
+🚫 𝐍𝐨 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐫 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚.
+_🔒Si se modifica el correo o contraseña se pierde la garantía y no habrá reclamo._
+
+💬 ꜱɪ ᴛɪᴇɴᴇꜱ ᴀʟɢúɴ ᴘʀᴏʙʟᴇᴍᴀ ᴄᴏɴ ʟᴀ ᴄᴜᴇɴᴛᴀ, ᴇꜱᴄʀíʙᴇᴍᴇ.`
+},
+
+{
+name:"TIDAL PREMIUM",
+fields:["correo","contraseña"],
+template:`*🎵 𝐓𝐈𝐃𝐀𝐋 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 🎧*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧: {correo}
+🔑: {contraseña}
+📅: 30 días
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+*⚠️ Recomendaciones:*
+🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚 𝐧𝐢 𝐝𝐚𝐭𝐨𝐬 𝐝𝐞𝐥 𝐩𝐞𝐫𝐟𝐢𝐥.
+🚫 𝐄𝐯𝐢𝐭𝐚𝐫 𝐞𝐥 𝐮𝐬𝐨 𝐞𝐧 𝐦ú𝐥𝐭𝐢𝐩𝐥𝐞𝐬 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨𝐬 𝐚𝐥 𝐦𝐢𝐬𝐦𝐨 𝐭𝐢𝐞𝐦𝐩𝐨.
+
+💬 𝐏𝐚𝐫𝐚 𝐜𝐮𝐚𝐥𝐪𝐮𝐢𝐞𝐫 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚, 𝐜𝐨𝐧𝐭á𝐜𝐭𝐚𝐦𝐞 𝐝𝐢𝐫𝐞𝐜𝐭𝐚𝐦𝐞𝐧𝐭𝐞.`
+},
+
+{
+name:"DEEZER PREMIUM",
+fields:["correo","contraseña"],
+template:`*🎧 𝐃𝐄𝐄𝐙𝐄𝐑 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 🔵*
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+📧: {correo}
+🔑: {contraseña}
+📅: 30 dias
+¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
+🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐞𝐥 𝐜𝐨𝐫𝐫𝐞𝐨 𝐧𝐢 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚.
+*_🔒 Si se modifica algún dato se pierde la garantía._*`
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ]
 
