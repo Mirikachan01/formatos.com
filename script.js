@@ -4,14 +4,14 @@ const services=[
 
 {
 name:"HBO MAX",
-fields:["correo","contraseña","nombre","clave","vencimiento"],
+fields:["correo","contraseña","nombre","clave"],
 template:`*🎬 HBO MAX 🎥*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
 👤 : {nombre}
 🔐 : {clave}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞:30 días
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐧𝐨𝐦𝐛𝐞 𝐧𝐢 𝐏𝐢𝐧 𝐝𝐞𝐥 𝐩𝐞𝐫𝐟𝐢𝐥. 
@@ -27,14 +27,14 @@ template:`*🎬 HBO MAX 🎥*
 
 {
 name:"NETFLIX",
-fields:["correo","contraseña","nombre","clave","vencimiento"],
+fields:["correo","contraseña","nombre","clave"],
 template:`*📺 NETFLIX PREMIUM*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
 👤 : {nombre}
 🔐 : {clave}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞:30 días
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐍𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐫 𝐥𝐨𝐬 𝐩𝐞𝐫𝐟𝐢𝐥𝐞𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚.
@@ -47,14 +47,14 @@ template:`*📺 NETFLIX PREMIUM*
 
 {
 name:"DISNEY+",
-fields:["correo","contraseña","nombre","clave","vencimiento"],
+fields:["correo","contraseña","nombre","clave"],
 template:`*🎬 DISNEY+*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
 👤 : {nombre}
 🔐 : {clave}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞:30 días
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 ▫️ 𝐁𝐨𝐫𝐫𝐚 𝐜𝐚𝐜𝐡é 𝐝𝐞 𝐥𝐚 𝐚𝐩𝐥𝐢𝐜𝐚𝐜𝐢ó𝐧 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧.
@@ -69,14 +69,14 @@ template:`*🎬 DISNEY+*
 
 {
 name:"CRUNCHYROLL",
-fields:["correo","contraseña","nombre","clave","vencimiento"],
+fields:["correo","contraseña","nombre","clave"],
 template:`*🔥 CRUNCHYROLL*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
 👤 : {nombre}
 🔐 : {clave}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞:30 días
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨.
@@ -90,13 +90,13 @@ template:`*🔥 CRUNCHYROLL*
 
 {
 name:"PARAMOUNT+",
-fields:["correo","contraseña","nombre","vencimiento"],
+fields:["correo","contraseña","nombre"],
 template:`*🎬 PARAMOUNT+*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
 👤 : {nombre}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞:30 días
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐔𝐬𝐚𝐫 𝐬𝐨𝐥𝐨 𝐞𝐧 𝟏 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨 𝐟𝐢𝐣𝐨.
@@ -109,14 +109,14 @@ template:`*🎬 PARAMOUNT+*
 
 {
 name:"PRIME VIDEO",
-fields:["correo","contraseña","nombre","clave","vencimiento"],
+fields:["correo","contraseña","nombre","clave"],
 template:`*🎬 PRIME VIDEO*
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
 👤 : {nombre}
 🔐 : {clave}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞:30 días
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *⚠️ Leer las Reglas:*
 🚫 𝐍𝐨 𝐢𝐧𝐠𝐫𝐞𝐬𝐚𝐫 𝐚 𝐚𝐦𝐚𝐳𝐨𝐧.𝐜𝐨𝐦
@@ -144,7 +144,7 @@ template:`
 🔑 Contraseña: {contraseña}
 *url:* https://zona593movie.com:8443
 📺 Dispositivos: {dispositivos}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 _⚠️ Ocupar en la cantidad de dispositivo indicado_
 _⚠️ No cambiar la contraseña_
@@ -162,7 +162,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🚨⚠️ *𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄*
 _❌🔑 Prohibido cambiar la contraseña._
@@ -181,7 +181,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🚨⚠️ *𝐈𝐌𝐏𝐎𝐑𝐓𝐀𝐍𝐓𝐄*
 _❌🔑 Prohibido cambiar la contraseña._
@@ -199,7 +199,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬  
 🚨⚠️ *¡IMPORTANTE!*  
 _❌🔑 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚._
@@ -216,7 +216,7 @@ template:`
 👤 Usuario: {usuario}
 🔑 Contraseña: {contraseña}
 📺 Dispositivos: {dispositivos}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 ⚠️ *¡IMPORTANTE!*  
 _🚫🗝️ 𝐏𝐑𝐎𝐇𝐈𝐁𝐈𝐃𝐎 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐥𝐚 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚._ 
@@ -236,7 +236,7 @@ pc:`*📲💻CHAT GPT PLUS🤖*
 📧: {correo}
 🔑: {contraseña}
 🔌 Dispositivo: PC
-⏰ Vence: {vencimiento}
+⏰ 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 👨‍💻 𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐚𝐯í𝐬𝐚𝐧𝐨𝐬 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐦𝐨𝐧𝐢𝐭𝐨𝐫𝐞𝐚𝐫 𝐭𝐮 𝐢𝐧𝐠𝐫𝐞𝐬𝐨.
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
@@ -262,9 +262,8 @@ movil:`
 📧: {correo}
 🔑: {contraseña}
 🔌 Dispositivo: Móvil
-⏰ Vence: {vencimiento}
+⏰ 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 🔌 𝐃𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨: Móvil
-⏰ 𝐕𝐞𝐧𝐜𝐞: 09/04/2026
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 👨‍💻 𝐏𝐨𝐫 𝐟𝐚𝐯𝐨𝐫, 𝐚𝐯í𝐬𝐚𝐧𝐨𝐬 𝐚𝐧𝐭𝐞𝐬 𝐝𝐞 𝐢𝐧𝐢𝐜𝐢𝐚𝐫 𝐬𝐞𝐬𝐢ó𝐧 𝐩𝐚𝐫𝐚 𝐩𝐨𝐝𝐞𝐫 𝐦𝐨𝐧𝐢𝐭𝐨𝐫𝐞𝐚𝐫 𝐭𝐮 𝐢𝐧𝐠𝐫𝐞𝐬𝐨.
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
@@ -302,7 +301,7 @@ movil:`
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧: {correo}
 🔑: {contraseña}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 📱 Dispositivo: Móvil
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🔓 *¿Cómo iniciar cesion?*
@@ -323,7 +322,7 @@ pc:`
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧: {correo}
 🔑: {contraseña}
-📅 Vence: {vencimiento}
+📅 𝐕𝐞𝐧𝐜𝐞: {vencimiento}
 *📱Dispositivo:* pc
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 *💻 ¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐮𝐬𝐚𝐫 𝐞𝐧 𝐏𝐂?*
@@ -352,7 +351,7 @@ template:`
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📧 : {correo}
 🔑 : {contraseña}
-*📅Vence:* 30 días
+*📅 𝐕𝐞𝐧𝐜𝐞:* 30 días
 *📱Dispositivo:* 1 
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 🚫 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐝𝐚𝐭𝐨𝐬 𝐝𝐞 𝐥𝐚 𝐜𝐮𝐞𝐧𝐭𝐚.
@@ -370,7 +369,7 @@ template:`
 📧 : {correo}
 🔑 : {contraseña}
 *📱Dispositivo:* 1
-*📆 Vence:* 30 dias
+*📆 𝐕𝐞𝐧𝐜𝐞:* 30 dias
 ¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬
 📵 𝐍𝐨 𝐜𝐚𝐦𝐛𝐢𝐚𝐫 𝐝𝐚𝐭𝐨𝐬 𝐧𝐢 𝐜𝐨𝐧𝐭𝐫𝐚𝐬𝐞ñ𝐚. 
 🚫 𝐎𝐜𝐮𝐩𝐚𝐫 𝐞𝐧 𝐮𝐧 𝐬𝐨𝐥𝐨 𝐝𝐢𝐬𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐨 𝐩𝐚𝐫𝐚 𝐞𝐯𝐢𝐭𝐚𝐫 𝐩𝐫𝐨𝐛𝐥𝐞𝐦𝐚𝐬.`
@@ -419,7 +418,7 @@ template:`
 *🔥𝐏𝐎𝐑𝐍𝐇𝐔𝐁 𝐏𝐑𝐄𝐌𝐈𝐔𝐌🔥*
 👤 : {usuario}
 🔑 : {contraseña}
-*📅 Vence:* 30 días
+*📅 𝐕𝐞𝐧𝐜𝐞:* 30 días
 *📲 Uso:* 1 dispositivo
 🔗 𝐋𝐨𝐠𝐢𝐧: pornhub.com
 ✅ *Recomendación:* No compartas el acceso para evitar bloqueos.
@@ -434,7 +433,7 @@ template:`
 *🔞𝐁𝐑𝐀𝐙𝐙𝐄𝐑𝐒 𝐏𝐑𝐄𝐌𝐈𝐔𝐌🔥*
 👤 : {usuario}
 🔑 : {contraseña}
-*📅 Vence:* 30 días
+*📅 𝐕𝐞𝐧𝐜𝐞:* 30 días
 *📲 Uso:* 1 dispositivo
 🔗 𝐋𝐨𝐠𝐢𝐧: brazzers.com
 ✅ *Recomendación:* No compartas el acceso para evitar bloqueos.`
