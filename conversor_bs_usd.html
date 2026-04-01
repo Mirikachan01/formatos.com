@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Conversor Bs ⇄ USD</title>
+  <style>
+    :root {
+      font-family: Inter, system-ui, Segoe UI, Roboto, 'Helvetica Neue', Arial;
+    }
+
+    body {
+      margin: 0;
+      background: #f6f7fb;
+      color: #111;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 28px
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(20, 24, 40, 0.06);
+      width: 100%;
+      max-width: 760px;
+      padding: 20px
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 20px
+    }
+
+    p {
+      margin: 6px 0 16px;
+      color: #555
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      margin-bottom: 6px;
+      color: #333
+    }
+
+    input,
+    button,
+    select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #e1e5ee;
+      font-size: 15px
+    }
+
+    .muted {
+      font-size: 13px;
+      color: #666
+    }
+
+    .row {
+      display: flex;
+      gap: 8px
+    }
+
+    .row>* {
+      flex: 1
+    }
+
+    .actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px
+    }
+
+    .btn {
+      cursor: pointer;
+      border: none;
+      background: #222;
+      color: #fff;
+      padding: 10px;
+      border-radius: 8px
+    }
+
+    .ghost {
+      background: #fff;
+      border: 1px solid #ddd;
+      color: #222
+    }
+
+    .table {
+      margin-top: 16px;
+      border-collapse: collapse;
+      width: 100%
+    }
+
+    .table th,
+    .table td {
+      border: 1px solid #eef2f7;
+      padding: 8px;
+      text-align: right
+    }
+
+    .table th {
+      text-align: left;
+      background: #fbfdff
+    }
+
+    .small {
+      font-size: 13px;
+      color: #666
+    }
+
+    .result {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 10px;
+      background: #f3f7ff
+    }
+
+    .copy {
+      background: #0b74ff;
+      color: #fff;
+      border: none;
+      padding: 8px 10px;
+      border-radius: 8px;
+      cursor: pointer
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #777
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Conversor Bs ⇄ USD</h1>
+    <p class="muted">Usa la relación base para calcular. Por ejemplo: <strong>1.10 $ = 7.49 bs</strong> (valor por
+      defecto).</p>
+
+    <div class="grid">
+      <div>
+        <label>Valor en dólares de referencia (ej: 1.10)</label>
+        <input id="baseUsd" type="number" step="0.0001" value="1.10" />
+      </div>
+      <div>
+        <label>Valor en bolivianos de referencia (ej: 7.49)</label>
+        <input id="baseBs" type="number" step="0.0001" value="7.49" />
+      </div>
+    </div>
+
+    <div style="margin-top:12px" class="grid">
+      <div>
+        <label>Convertir Bolivianos → USD</label>
+        <input id="inputBs" type="number" step="0.01" placeholder="Ej: 10" />
+      </div>
+      <div>
+        <label>Convertir USD → Bolivianos</label>
+        <input id="inputUsd" type="number" step="0.01" placeholder="Ej: 1.47" />
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="convBs" class="btn">Convertir Bs → $</button>
+      <button id="convUsd" class="btn">Convertir $ → Bs</button>
+      <button id="rateBtn" class="ghost">Calcular tasa (ver)</button>
+      <button id="quickTable" class="ghost">Tabla rápida</button>
+      <button id="reset" class="ghost">Restablecer valores</button>
+    </div>
+
+    <div id="output" class="result" aria-live="polite">
+      <div class="small">Resultado aparecerá aquí.</div>
+    </div>
+
+    <table id="table" class="table" hidden>
+      <thead>
+        <tr>
+          <th>Cantidad</th>
+          <th>En $</th>
+          <th>En Bs</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <footer>
+      Sugerencia: si quieres otra relación por defecto, cambia los valores de referencia y luego usa los botones. Copia
+      resultados con el botón <em>Copiar</em>.
+    </footer>
+  </div>
+
+  <script>
+    // Elementos
+    const baseUsd = document.getElementById('baseUsd');
+    const baseBs = document.getElementById('baseBs');
+    const inputBs = document.getElementById('inputBs');
+    const inputUsd = document.getElementById('inputUsd');
+    const convBs = document.getElementById('convBs');
+    const convUsd = document.getElementById('convUsd');
+    const rateBtn = document.getElementById('rateBtn');
+    const output = document.getElementById('output');
+    const quickTable = document.getElementById('quickTable');
+    const table = document.getElementById('table');
+    const tbody = table.querySelector('tbody');
+    const reset = document.getElementById('reset');
+
+    function getRate() {
+      const usd = parseFloat(baseUsd.value) || 0;
+      const bs = parseFloat(baseBs.value) || 0;
+      if (bs === 0) return 0;
+      // dólares por 1 Bs
+      return usd / bs;
+    }
+
+    function formatMoney(n) {
+      return Number(n).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    convBs.addEventListener('click', () => {
+      const bsVal = parseFloat(inputBs.value);
+      if (isNaN(bsVal)) { showMsg('Ingresa una cantidad en Bs a convertir.'); return }
+      const rate = getRate();
+      const usd = bsVal * rate;
+      showMsg(`${bsVal} Bs ≈ $ ${formatMoney(usd)} (tasa: $${formatMoney(rate)} por 1 Bs)`);
+      createCopyButton(`${formatMoney(usd)}`);
+    });
+
+    convUsd.addEventListener('click', () => {
+      const usdVal = parseFloat(inputUsd.value);
+      if (isNaN(usdVal)) { showMsg('Ingresa una cantidad en $ a convertir.'); return }
+      const rate = getRate();
+      const bs = (rate === 0) ? 0 : (usdVal / rate);
+      showMsg(`$ ${formatMoney(usdVal)} ≈ ${formatMoney(bs)} Bs (tasa: $${formatMoney(rate)} por 1 Bs)`);
+      createCopyButton(`${formatMoney(bs)}`);
+    });
+
+    rateBtn.addEventListener('click', () => {
+      const rate = getRate();
+      if (rate === 0) { showMsg('La unidad en Bs no puede ser 0.'); return }
+      showMsg(`1 Bs ≈ $ ${formatMoney(rate)}  — 1 $ ≈ ${formatMoney(1 / rate)} Bs (según ${baseUsd.value} $ = ${baseBs.value} Bs)`);
+      createCopyButton(formatMoney(rate));
+    });
+
+    quickTable.addEventListener('click', () => {
+      const sample = [1, 5, 10, 20, 35, 47, 56, 83, 215];
+      tbody.innerHTML = '';
+      const rate = getRate();
+      sample.forEach(x => {
+        const usd = x * rate;
+        const tr = document.createElement('tr');
+        tr.innerHTML = `<td style="text-align:left">${x}</td><td>$ ${formatMoney(usd)}</td><td>${formatMoney(x)} Bs</td>`;
+        tbody.appendChild(tr);
+      });
+      table.hidden = false;
+      showMsg('Tabla rápida generada.');
+    });
+
+    reset.addEventListener('click', () => {
+      baseUsd.value = '1.10';
+      baseBs.value = '7.49';
+      inputBs.value = '';
+      inputUsd.value = '';
+      tbody.innerHTML = '';
+      table.hidden = true;
+      showMsg('Valores restablecidos a 1.10 $ = 7.49 bs.');
+    });
+
+    function showMsg(html) {
+      output.innerHTML = `<div class=\"small\">${html}</div>`;
+    }
+
+    function createCopyButton(text) {
+      const btn = document.createElement('button');
+      btn.textContent = 'Copiar resultado';
+      btn.className = 'copy';
+      btn.style.marginTop = '8px';
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(text);
+          btn.textContent = 'Copiado ✓';
+          setTimeout(() => btn.textContent = 'Copiar resultado', 1200);
+        } catch (e) {
+          alert('No se pudo copiar en este navegador.');
+        }
+      });
+      output.appendChild(btn);
+    }
+
+    // Initialize small helper text
+    showMsg('Listo: modifica la relación de referencia y usa los botones para convertir.');
+  </script>
+</body>
+
+</html>
